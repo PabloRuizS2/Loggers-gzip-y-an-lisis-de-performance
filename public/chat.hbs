@@ -1,0 +1,16 @@
+<div id="container-messages">
+	<h2>Mensajes</h2>
+	<ul>
+		{{#each messages}}
+		<li>
+			<strong>{{this.email}}:</strong> {{this.message}}
+		</li>
+		{{/each}}
+	</ul>
+</div>
+
+<form id="chat-form">
+	<input id="email-input" type="email" placeholder="E-mail">
+	<textarea name="message" id="text-area-input" cols="30" rows="5" placeholder="Mensaje"></textarea>
+	<button type="submit">Enviar</button>
+</form>

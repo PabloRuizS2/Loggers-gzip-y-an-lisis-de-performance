@@ -1,0 +1,47 @@
+form {
+	margin-bottom: 1rem;
+}
+
+form input {
+	display: block;
+	margin-bottom: 1rem;
+}
+
+#chat-form #text-area-input {
+	display: block;
+}
+
+#chat-form button {
+	margin-top: 1rem;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	/* background-color: red; */
+	background-color: darkgray;
+}
+
+.link-add {
+	margin-bottom: 2rem;
+}
+
+.thumbnail {
+	width: 100%;
+}
+
+.thumbnail img {
+	width: 100%;
+	object-fit: contain;
+	max-height: 40px;
+}
+
+table {
+	width: 100%;
+	margin-top: 2rem;
+}
+
+table tr td {
+	text-align: center;
+	background-color: gray;
+	/* height: 40px; */
+}

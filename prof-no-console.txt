@@ -1,0 +1,569 @@
+Statistical profiling result from prof-no-console.log, (22768 ticks, 28 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+    101    0.4%          /usr/lib/system/libsystem_pthread.dylib
+     34    0.1%          /usr/lib/system/libsystem_platform.dylib
+     10    0.0%          /usr/lib/system/libsystem_kernel.dylib
+      4    0.0%          /usr/lib/system/libsystem_malloc.dylib
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+     20    0.1%    0.1%  LazyCompile: *next /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+     20    0.1%    0.1%  LazyCompile: *SourceNode_walk /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/source-map/lib/source-node.js:221:53
+     19    0.1%    0.1%  LazyCompile: *wrap /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:101:22
+     19    0.1%    0.1%  LazyCompile: *parse /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+     10    0.0%    0.0%  LazyCompile: *resolve node:path:1091:10
+      7    0.0%    0.0%  LazyCompile: *next /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:177:16
+      6    0.0%    0.0%  LazyCompile: *compile /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      6    0.0%    0.0%  LazyCompile: *anonymous /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:12:42
+      5    0.0%    0.0%  RegExp: (?:\r\n?|\n).*
+      4    0.0%    0.0%  LazyCompile: *step /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      4    0.0%    0.0%  LazyCompile: *<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/source-map/lib/source-node.js:174:29
+      3    0.0%    0.0%  LazyCompile: *normalizeString node:path:66:25
+      3    0.0%    0.0%  LazyCompile: *extend /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/utils.js:28:16
+      3    0.0%    0.0%  Function: ^initialize /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/passport/lib/middleware/initialize.js:51:29
+      2    0.0%    0.0%  RegExp: ^(?:\{\{\{\{)
+      2    0.0%    0.0%  RegExp: ^(?:\{\{(~)?\*?)
+      2    0.0%    0.0%  RegExp: ^(?:\{\{(~)?![\s\S]*?\}\})
+      2    0.0%    0.0%  RegExp: ^(?:(~)?\}\})
+      2    0.0%    0.0%  LazyCompile: *quotedString /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:118:38
+      2    0.0%    0.0%  LazyCompile: *processTicksAndRejections node:internal/process/task_queues:67:35
+      2    0.0%    0.0%  LazyCompile: *nextTick node:internal/process/task_queues:103:18
+      2    0.0%    0.0%  LazyCompile: *join node:path:1166:7
+      2    0.0%    0.0%  LazyCompile: *generateList /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:143:38
+      2    0.0%    0.0%  LazyCompile: *castChunk /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:52:19
+      2    0.0%    0.0%  LazyCompile: *anonymous /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:549:49
+      2    0.0%    0.0%  LazyCompile: *__awaiter /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:18:54
+      2    0.0%    0.0%  LazyCompile: *SourceNode_add /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/source-map/lib/source-node.js:172:51
+      2    0.0%    0.0%  Function: ^stat node:fs:1513:14
+      2    0.0%    0.0%  Function: ^createNewLookupObject /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/internal/create-new-lookup-object.js:15:31
+      2    0.0%    0.0%  Function: ^<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/routers/app.routers.js:56:36
+      2    0.0%    0.0%  Function: ^<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:167:47
+      2    0.0%    0.0%  Function: ^<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/engine.io/build/server.js:479:30
+      1    0.0%    0.0%  RegExp: ^(?:null(?=([~}\s)])))
+      1    0.0%    0.0%  RegExp: ^(?:\{\{(~)?\s*else\s*(~)?\}\})
+      1    0.0%    0.0%  RegExp: ^(?:\{\{(~)?\^\s*(~)?\}\})
+      1    0.0%    0.0%  RegExp: ^(?:\{\{(~)?\^)
+      1    0.0%    0.0%  RegExp: ^(?:\{\{(~)?>)
+      1    0.0%    0.0%  RegExp: ^(?:\s+)
+      1    0.0%    0.0%  RegExp: ^(?:\))
+      1    0.0%    0.0%  RegExp: ^(?:\()
+      1    0.0%    0.0%  RegExp: ^(?:[^\x00]*?(?=(\{\{)))
+      1    0.0%    0.0%  RegExp: ^(?:@)
+      1    0.0%    0.0%  RegExp: ^(?:'(\\[']|[^'])*')
+      1    0.0%    0.0%  RegExp: \r?\n\s*?$
+      1    0.0%    0.0%  RegExp: [^\t\x20-\x7e\x80-\xff]
+      1    0.0%    0.0%  RegExp: "(?:_|\\u005[Ff])(?:_|\\u005[Ff])(?:p|\\u0070)(?:r|\\u0072)(?:o|\\u006[Ff])(?:t|\\u0074)(?:o|\\u006[Ff])(?:_|\\u005[Ff])(?:_|\\u005[Ff])"\s*:
+      1    0.0%    0.0%  LazyCompile: *resolvePath /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:492:36
+      1    0.0%    0.0%  LazyCompile: *relative node:path:1190:11
+      1    0.0%    0.0%  LazyCompile: *preparePath /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:63:21
+      1    0.0%    0.0%  LazyCompile: *popStack /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:960:30
+      1    0.0%    0.0%  LazyCompile: *parse /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/vary/index.js:96:16
+      1    0.0%    0.0%  LazyCompile: *parse /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/node_modules/minimatch/minimatch.js:413:9
+      1    0.0%    0.0%  LazyCompile: *opcode /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:347:26
+      1    0.0%    0.0%  LazyCompile: *normalize node:path:1127:12
+      1    0.0%    0.0%  LazyCompile: *fulfilled /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1    0.0%    0.0%  LazyCompile: *fastparse /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/parseurl/index.js:95:20
+      1    0.0%    0.0%  LazyCompile: *extname node:path:1385:10
+      1    0.0%    0.0%  LazyCompile: *createNewLookupObject /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/internal/create-new-lookup-object.js:15:31
+      1    0.0%    0.0%  LazyCompile: *appendEscaped /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      1    0.0%    0.0%  LazyCompile: *__generator /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:27:58
+      1    0.0%    0.0%  LazyCompile: *<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1    0.0%    0.0%  Function: ^writevGeneric node:internal/stream_base_commons:122:23
+      1    0.0%    0.0%  Function: ^write_ node:_http_outgoing:831:16
+      1    0.0%    0.0%  Function: ^wrapHelper /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/internal/wrapHelper.js:6:20
+      1    0.0%    0.0%  Function: ^tryStatSync node:fs:419:21
+      1    0.0%    0.0%  Function: ^step /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1    0.0%    0.0%  Function: ^step /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:23:22
+      1    0.0%    0.0%  Function: ^socketListenerWrap node:_http_server:1118:37
+      1    0.0%    0.0%  Function: ^set maxAge /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/session/cookie.js:83:13
+      1    0.0%    0.0%  Function: ^session /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:179:26
+      1    0.0%    0.0%  Function: ^sent /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:28:39
+      1    0.0%    0.0%  Function: ^run /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/thread-stream/lib/worker.js:98:14
+      1    0.0%    0.0%  Function: ^resolvePath /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:492:36
+      1    0.0%    0.0%  Function: ^relative node:path:1190:11
+      1    0.0%    0.0%  Function: ^processTicksAndRejections node:internal/process/task_queues:67:35
+      1    0.0%    0.0%  Function: ^onstat /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/send/index.js:717:33
+      1    0.0%    0.0%  Function: ^normalizeParseOptions /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/qs/lib/parse.js:204:59
+      1    0.0%    0.0%  Function: ^next /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+      1    0.0%    0.0%  Function: ^next /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/route.js:116:16
+      1    0.0%    0.0%  Function: ^newAsyncId node:internal/async_hooks:416:20
+      1    0.0%    0.0%  Function: ^lookupProperty /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/runtime.js:118:44
+      1    0.0%    0.0%  Function: ^lookup /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/view.js:104:40
+      1    0.0%    0.0%  Function: ^isPosixPathSeparator node:path:56:30
+      1    0.0%    0.0%  Function: ^isModified /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:425:24
+      1    0.0%    0.0%  Function: ^invokeAmbiguous /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      1    0.0%    0.0%  Function: ^insert node:internal/timers:355:16
+      1    0.0%    0.0%  Function: ^hasObserver node:internal/perf/observe:526:21
+      1    0.0%    0.0%  Function: ^getHighWaterMark node:internal/streams/state:19:26
+      1    0.0%    0.0%  Function: ^fn node:internal/util:349:14
+      1    0.0%    0.0%  Function: ^escapeExpression /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/utils.js:77:26
+      1    0.0%    0.0%  Function: ^digest node:internal/crypto/hash:119:40
+      1    0.0%    0.0%  Function: ^createHash node:crypto:132:20
+      1    0.0%    0.0%  Function: ^createError /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/http-errors/index.js:49:22
+      1    0.0%    0.0%  Function: ^concat node:buffer:541:32
+      1    0.0%    0.0%  Function: ^compressible /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/compressible/index.js:41:23
+      1    0.0%    0.0%  Function: ^callback node:internal/streams/writable:553:44
+      1    0.0%    0.0%  Function: ^allocUnsafeSlow node:buffer:388:50
+      1    0.0%    0.0%  Function: ^_write /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/pino-pretty/node_modules/readable-stream/lib/internal/streams/writable.js:238:16
+      1    0.0%    0.0%  Function: ^_finish node:_http_outgoing:1033:53
+      1    0.0%    0.0%  Function: ^__generator /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:27:58
+      1    0.0%    0.0%  Function: ^Transform._write /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/pino-pretty/node_modules/readable-stream/lib/internal/streams/transform.js:163:39
+      1    0.0%    0.0%  Function: ^Socket._writeGeneric node:net:891:42
+      1    0.0%    0.0%  Function: ^ServerResponse node:_http_server:192:24
+      1    0.0%    0.0%  Function: ^ReadableState node:internal/streams/readable:83:23
+      1    0.0%    0.0%  Function: ^Readable.resume /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/pino-pretty/node_modules/readable-stream/lib/internal/streams/readable.js:897:38
+      1    0.0%    0.0%  Function: ^Readable.read node:internal/streams/readable:402:35
+      1    0.0%    0.0%  Function: ^Long.sub /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/bson/lib/long.js:726:35
+      1    0.0%    0.0%  Function: ^LOG /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/pino/lib/tools.js:38:16
+      1    0.0%    0.0%  Function: ^IncomingMessage node:_http_incoming:53:25
+      1    0.0%    0.0%  Function: ^Hash node:internal/crypto/hash:62:14
+      1    0.0%    0.0%  Function: ^ExpressHandlebars.render /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:222:51
+      1    0.0%    0.0%  Function: ^ExpressHandlebars._getFile /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:364:53
+      1    0.0%    0.0%  Function: ^<anonymous> :1:1
+      1    0.0%    0.0%  Function: ^<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/request.js:467:36
+      1    0.0%    0.0%  Function: ^<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1    0.0%    0.0%  Function: ^<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/cors/lib/index.js:204:37
+
+ [C++]:
+   ticks  total  nonlib   name
+  19377   85.1%   85.7%  T _host_info
+   1916    8.4%    8.5%  T node::options_parser::GetCLIOptions(v8::FunctionCallbackInfo<v8::Value> const&)
+    157    0.7%    0.7%  T node::builtins::BuiltinLoader::CompileFunction(v8::FunctionCallbackInfo<v8::Value> const&)
+     87    0.4%    0.4%  t node::fs::Read(v8::FunctionCallbackInfo<v8::Value> const&)
+     87    0.4%    0.4%  T __kernelrpc_thread_policy_set
+     68    0.3%    0.3%  T _vm_copy
+     67    0.3%    0.3%  T ___ulock_wait
+     60    0.3%    0.3%  T node::contextify::ContextifyContext::CompileFunction(v8::FunctionCallbackInfo<v8::Value> const&)
+     32    0.1%    0.1%  T node::Environment::RunAndClearNativeImmediates(bool)
+     27    0.1%    0.1%  T _read$NOCANCEL
+     25    0.1%    0.1%  t node::fs::Stat(v8::FunctionCallbackInfo<v8::Value> const&)
+     25    0.1%    0.1%  T node::fs::Close(v8::FunctionCallbackInfo<v8::Value> const&)
+     24    0.1%    0.1%  t node::fs::Open(v8::FunctionCallbackInfo<v8::Value> const&)
+     21    0.1%    0.1%  T _task_policy_set
+     19    0.1%    0.1%  t node::fs::FStat(v8::FunctionCallbackInfo<v8::Value> const&)
+     17    0.1%    0.1%  t node::fs::InternalModuleReadJSON(v8::FunctionCallbackInfo<v8::Value> const&)
+     17    0.1%    0.1%  t _small_malloc_should_clear
+     15    0.1%    0.1%  T node::fs::NewFSReqCallback(v8::FunctionCallbackInfo<v8::Value> const&)
+     14    0.1%    0.1%  t std::__1::basic_istream<wchar_t, std::__1::char_traits<wchar_t> >& std::__1::__input_arithmetic<long long, wchar_t, std::__1::char_traits<wchar_t> >(std::__1::basic_istream<wchar_t, std::__1::char_traits<wchar_t> >&, long long&)
+     10    0.0%    0.0%  t _szone_realloc
+     10    0.0%    0.0%  T node::InternalCallbackScope::Close()
+     10    0.0%    0.0%  T __kernelrpc_mach_vm_purgable_control_trap
+     10    0.0%    0.0%  T ___sfp
+      9    0.0%    0.0%  t _tiny_free_no_lock
+      9    0.0%    0.0%  T _fopen
+      8    0.0%    0.0%  t std::__1::messages_byname<char>::~messages_byname()
+      8    0.0%    0.0%  t std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long)
+      8    0.0%    0.0%  t _tiny_malloc_should_clear
+      8    0.0%    0.0%  t ___vfprintf
+      8    0.0%    0.0%  T _inet_net_pton
+      7    0.0%    0.0%  t node::fs::ReadDir(v8::FunctionCallbackInfo<v8::Value> const&)
+      7    0.0%    0.0%  T _semaphore_create
+      6    0.0%    0.0%  t void node::Buffer::(anonymous namespace)::StringSlice<(node::encoding)1>(v8::FunctionCallbackInfo<v8::Value> const&)
+      6    0.0%    0.0%  t node::fs::InternalModuleStat(v8::FunctionCallbackInfo<v8::Value> const&)
+      6    0.0%    0.0%  t _tiny_malloc_from_free_list
+      6    0.0%    0.0%  t _nanov2_find_block_and_allocate
+      6    0.0%    0.0%  t _free_tiny
+      6    0.0%    0.0%  T _kdebug_typefilter
+      5    0.0%    0.0%  T node::Environment::CheckImmediate(uv_check_s*)
+      5    0.0%    0.0%  T node::AsyncHooks::push_async_context(double, double, v8::Local<v8::Object>)
+      4    0.0%    0.0%  t void node::Buffer::(anonymous namespace)::StringWrite<(node::encoding)1>(v8::FunctionCallbackInfo<v8::Value> const&)
+      4    0.0%    0.0%  t std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char)
+      4    0.0%    0.0%  t dyld3::Loader::mapAndFixupAllImages(Diagnostics&, bool, bool)
+      4    0.0%    0.0%  t _free_small
+      4    0.0%    0.0%  T std::__1::locale::classic()
+      4    0.0%    0.0%  T std::__1::basic_istream<wchar_t, std::__1::char_traits<wchar_t> >::get()
+      4    0.0%    0.0%  T _mach_msg_destroy
+      4    0.0%    0.0%  T ___thread_selfid
+      3    0.0%    0.0%  t std::__1::__hash_iterator<std::__1::__hash_node<node::CleanupQueue::CleanupHookCallback, void*>*> std::__1::__hash_table<node::CleanupQueue::CleanupHookCallback, node::CleanupQueue::CleanupHookCallback::Hash, node::CleanupQueue::CleanupHookCallback::Equal, std::__1::allocator<node::CleanupQueue::CleanupHookCallback> >::find<node::CleanupQueue::CleanupHookCallback>(node::CleanupQueue::CleanupHookCallback const&)
+      3    0.0%    0.0%  t node::fs::LStat(v8::FunctionCallbackInfo<v8::Value> const&)
+      3    0.0%    0.0%  t __platform_memmove$VARIANT$Haswell
+      3    0.0%    0.0%  t __cxxabiv1::__function_type_info::~__function_type_info()
+      3    0.0%    0.0%  t ___srefill0
+      3    0.0%    0.0%  T node::binding::GetInternalBinding(v8::FunctionCallbackInfo<v8::Value> const&)
+      3    0.0%    0.0%  T node::binding::DLOpen(v8::FunctionCallbackInfo<v8::Value> const&)
+      3    0.0%    0.0%  T _fgetws
+      3    0.0%    0.0%  T __platform_strncmp
+      2    0.0%    0.0%  t std::__1::locale::__imp::__imp(std::__1::locale::__imp const&, std::__1::locale::facet*, long)
+      2    0.0%    0.0%  t std::__1::basic_istream<wchar_t, std::__1::char_traits<wchar_t> >& std::__1::__input_arithmetic<unsigned long long, wchar_t, std::__1::char_traits<wchar_t> >(std::__1::basic_istream<wchar_t, std::__1::char_traits<wchar_t> >&, unsigned long long&)
+      2    0.0%    0.0%  t node::Environment::StartProfilerIdleNotifier()::$_6::__invoke(uv_check_s*)
+      2    0.0%    0.0%  t node::CustomBufferJSListener::OnStreamDestroy()
+      2    0.0%    0.0%  t _tiny_try_realloc_in_place
+      2    0.0%    0.0%  t _lflush
+      2    0.0%    0.0%  t ___srefill1
+      2    0.0%    0.0%  t (anonymous namespace)::fallback_free(void*)
+      2    0.0%    0.0%  T std::__1::__next_prime(unsigned long)
+      2    0.0%    0.0%  T node::Environment::RunTimers(uv_timer_s*)
+      2    0.0%    0.0%  T node::Environment::RunAndClearInterrupts()
+      2    0.0%    0.0%  T node::BaseObject::pointer_data()
+      2    0.0%    0.0%  T _task_restartable_ranges_synchronize
+      2    0.0%    0.0%  T _open$NOCANCEL
+      2    0.0%    0.0%  T _malloc_zone_from_ptr
+      2    0.0%    0.0%  T ___sflags
+      2    0.0%    0.0%  T ___bsdthread_create
+      1    0.0%    0.0%  t void std::__1::__tree_balance_after_insert<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*, std::__1::__tree_node_base<void*>*)
+      1    0.0%    0.0%  t unsigned long std::__1::__hash_table<node::CleanupQueue::CleanupHookCallback, node::CleanupQueue::CleanupHookCallback::Hash, node::CleanupQueue::CleanupHookCallback::Equal, std::__1::allocator<node::CleanupQueue::CleanupHookCallback> >::__erase_unique<node::CleanupQueue::CleanupHookCallback>(node::CleanupQueue::CleanupHookCallback const&)
+      1    0.0%    0.0%  t std::__1::vector<unsigned long, std::__1::allocator<unsigned long> >::__append(unsigned long)
+      1    0.0%    0.0%  t std::__1::set<node::(anonymous namespace)::Parser*, node::(anonymous namespace)::ParserComparator, std::__1::allocator<node::(anonymous namespace)::Parser*> >::erase(node::(anonymous namespace)::Parser* const&)
+      1    0.0%    0.0%  t std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> > std::__1::num_get<wchar_t, std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> > >::__do_get_floating_point<float>(std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> >, std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> >, std::__1::ios_base&, unsigned int&, float&) const
+      1    0.0%    0.0%  t std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> > std::__1::num_get<wchar_t, std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> > >::__do_get_floating_point<double>(std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> >, std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> >, std::__1::ios_base&, unsigned int&, double&) const
+      1    0.0%    0.0%  t node::fs::FSReqCallback::~FSReqCallback()
+      1    0.0%    0.0%  t node::Buffer::(anonymous namespace)::ByteLengthUtf8(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.0%    0.0%  t node::(anonymous namespace)::Parser::Proxy<int (node::(anonymous namespace)::Parser::*)(), &(node::(anonymous namespace)::Parser::on_message_begin())>::Raw(llhttp__internal_s*)
+      1    0.0%    0.0%  t _tiny_free_list_remove_ptr
+      1    0.0%    0.0%  t _rack_region_insert
+      1    0.0%    0.0%  t _moreglue
+      1    0.0%    0.0%  t _default_zone_realloc
+      1    0.0%    0.0%  t __pthread_wqthread_setup
+      1    0.0%    0.0%  t __pthread_mutex_firstfit_lock_slow
+      1    0.0%    0.0%  t ___vfwscanf
+      1    0.0%    0.0%  t ___printf_render_quote
+      1    0.0%    0.0%  T std::__1::ios_base::init(void*)
+      1    0.0%    0.0%  T std::__1::collate_byname<wchar_t>::collate_byname(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned long)
+      1    0.0%    0.0%  T node::loader::ModuleWrap::New(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.0%    0.0%  T node::fs::FSReqAfterScope::Reject(uv_fs_s*)
+      1    0.0%    0.0%  T node::InternalCallbackScope::InternalCallbackScope(node::Environment*, v8::Local<v8::Object>, node::async_context const&, int)
+      1    0.0%    0.0%  T node::CleanupQueue::CleanupHookCallback::Equal::operator()(node::CleanupQueue::CleanupHookCallback const&, node::CleanupQueue::CleanupHookCallback const&) const
+      1    0.0%    0.0%  T node::BaseObject::~BaseObject()
+      1    0.0%    0.0%  T node::AsyncWrap::MakeCallback(v8::Local<v8::Function>, int, v8::Local<v8::Value>*)
+      1    0.0%    0.0%  T _task_self_trap
+      1    0.0%    0.0%  T _sscanf_l
+      1    0.0%    0.0%  T _rewind
+      1    0.0%    0.0%  T _realloc
+      1    0.0%    0.0%  T _pthread_override_qos_class_start_np
+      1    0.0%    0.0%  T _pthread_mutex_init
+      1    0.0%    0.0%  T _os_packet_get_transport_traffic_realtime
+      1    0.0%    0.0%  T _mach_msg_server
+      1    0.0%    0.0%  T __sseek
+      1    0.0%    0.0%  T __kernelrpc_mach_vm_map
+      1    0.0%    0.0%  T ___collate_equiv_match
+
+ [Summary]:
+   ticks  total  nonlib   name
+    249    1.1%    1.1%  JavaScript
+  22342   98.1%   98.8%  C++
+    250    1.1%    1.1%  GC
+    149    0.7%          Shared libraries
+     28    0.1%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+   2357   98.3%   10.4%  T node::options_parser::GetCLIOptions(v8::FunctionCallbackInfo<v8::Value> const&)
+      9    0.4%    0.0%  T _read$NOCANCEL
+      6    0.3%    0.0%  T _vm_copy
+      5    0.2%    0.0%  T _inet_net_pton
+      5    0.2%    0.0%  T ___sfp
+      2    0.1%    0.0%  t std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long)
+      2    0.1%    0.0%  T _open$NOCANCEL
+      2    0.1%    0.0%  T ___bsdthread_create
+      1    0.0%    0.0%  t std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char)
+      1    0.0%    0.0%  t std::__1::messages_byname<char>::~messages_byname()
+      1    0.0%    0.0%  t std::__1::basic_istream<wchar_t, std::__1::char_traits<wchar_t> >& std::__1::__input_arithmetic<long long, wchar_t, std::__1::char_traits<wchar_t> >(std::__1::basic_istream<wchar_t, std::__1::char_traits<wchar_t> >&, long long&)
+      1    0.0%    0.0%  t _moreglue
+      1    0.0%    0.0%  t ___srefill0
+      1    0.0%    0.0%  T _mach_msg_server
+      1    0.0%    0.0%  T _kdebug_typefilter
+      1    0.0%    0.0%  T _fopen
+      1    0.0%    0.0%  T ___ulock_wait
+      1    0.0%    0.0%  T ___sflags
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+  19377   85.1%  T _host_info
+
+   1916    8.4%  T node::options_parser::GetCLIOptions(v8::FunctionCallbackInfo<v8::Value> const&)
+    879   45.9%    T node::options_parser::GetCLIOptions(v8::FunctionCallbackInfo<v8::Value> const&)
+     35    4.0%      Function: ^writevGeneric node:internal/stream_base_commons:122:23
+     35  100.0%        Function: ^Socket._writeGeneric node:net:891:42
+     35  100.0%          Function: ^Socket._writev node:net:923:36
+     35  100.0%            Function: ^doWrite node:internal/streams/writable:401:17
+     34    3.9%      T node::options_parser::GetCLIOptions(v8::FunctionCallbackInfo<v8::Value> const&)
+      4   11.8%        Function: ^checkInvalidHeaderChar node:_http_common:221:32
+      4  100.0%          Function: ^<anonymous> node:_http_outgoing:618:45
+      4  100.0%            Function: ^setHeader node:_http_outgoing:642:57
+      1    2.9%        LazyCompile: ~resolvePackageTargetString node:internal/modules/esm/resolve:396:36
+      1  100.0%          LazyCompile: ~resolvePackageTarget node:internal/modules/esm/resolve:490:30
+      1  100.0%            LazyCompile: ~resolvePackageTarget node:internal/modules/esm/resolve:490:30
+      1    2.9%        LazyCompile: ~prettifyObject /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/pino-pretty/lib/utils.js:367:25
+      1  100.0%          LazyCompile: ~pretty /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/pino-pretty/index.js:119:19
+      1  100.0%            LazyCompile: ~transform /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/pino-pretty/index.js:233:17
+      1    2.9%        LazyCompile: ~pathtoRegexp /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/path-to-regexp/index.js:28:22
+      1  100.0%          LazyCompile: ~Layer /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/layer.js:33:15
+      1  100.0%            LazyCompile: ~route /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:502:29
+      1    2.9%        LazyCompile: ~parse /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/secure-json-parse/index.js:7:16
+      1  100.0%          LazyCompile: ~jsonParser /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/pino-pretty/index.js:22:20
+      1  100.0%            LazyCompile: ~pretty /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/pino-pretty/index.js:119:19
+      1    2.9%        LazyCompile: ~next /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+      1  100.0%          LazyCompile: ~lex /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:525:30
+      1  100.0%            LazyCompile: ~lex /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:295:25
+      1    2.9%        LazyCompile: ~make /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/node_modules/minimatch/minimatch.js:188:8
+      1  100.0%          LazyCompile: ~Minimatch /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/node_modules/minimatch/minimatch.js:163:15
+      1  100.0%            LazyCompile: ~setopts /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/node_modules/glob/common.js:48:18
+      1    2.9%        LazyCompile: ~lookup /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/mime/mime.js:102:19
+      1  100.0%          Function: ^header /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/response.js:777:29
+      1  100.0%            LazyCompile: ~contentType /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/response.js:619:32
+      1    2.9%        LazyCompile: ~isIPv6 node:internal/net:38:16
+      1  100.0%          LazyCompile: ~isIP node:internal/net:45:14
+      1  100.0%            LazyCompile: ~lookupAndConnect node:net:1129:26
+      1    2.9%        LazyCompile: ~isIPv4 node:internal/net:31:16
+      1  100.0%          LazyCompile: ~isIP node:internal/net:45:14
+      1  100.0%            LazyCompile: ~parseSslOptions /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/mongodb/lib/cmap/connect.js:237:25
+      1    2.9%        LazyCompile: ~braceExpand /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/node_modules/minimatch/minimatch.js:109:21
+      1  100.0%          LazyCompile: ~braceExpand /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/node_modules/minimatch/minimatch.js:409:15
+      1  100.0%            LazyCompile: ~make /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/node_modules/minimatch/minimatch.js:188:8
+      1    2.9%        LazyCompile: ~_interopNamespace /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/colorette/index.cjs:7:27
+      1  100.0%          Function: ~<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/colorette/index.cjs:1:1
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1113:37
+      1    2.9%        LazyCompile: ~<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/mongoose/lib/helpers/pluralize.js:86:34
+      1  100.0%          T node::options_parser::GetCLIOptions(v8::FunctionCallbackInfo<v8::Value> const&)
+      1  100.0%            LazyCompile: ~pluralize /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/mongoose/lib/helpers/pluralize.js:82:19
+      1    2.9%        LazyCompile: *quotedString /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:118:38
+      1  100.0%          Function: ^pushSource /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      1  100.0%            Function: ^append /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:394:26
+      1    2.9%        LazyCompile: *pretty /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/pino-pretty/index.js:119:19
+      1  100.0%          Function: ^transform /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/pino-pretty/index.js:233:17
+      1  100.0%            Function: ^Transform._write /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/pino-pretty/node_modules/readable-stream/lib/internal/streams/transform.js:163:39
+      1    2.9%        LazyCompile: *parse /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/node_modules/minimatch/minimatch.js:413:9
+      1  100.0%          T node::options_parser::GetCLIOptions(v8::FunctionCallbackInfo<v8::Value> const&)
+      1  100.0%            Function: ^<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/node_modules/minimatch/minimatch.js:222:19
+      1    2.9%        LazyCompile: *next /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+      1  100.0%          LazyCompile: *parse /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      1  100.0%            LazyCompile: *<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1    2.9%        LazyCompile: *<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1  100.0%          LazyCompile: *step /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%            LazyCompile: *<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1    2.9%        Function: ~<anonymous> node:internal/crypto/keys:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1    2.9%        Function: ~<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/knex/lib/dialects/sqlite3/query/sqlite-querycompiler.js:1:1
+      1  100.0%          Function: ~<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/knex/lib/dialects/sqlite3/index.js:1:1
+      1  100.0%            LazyCompile: ~sqlite3 /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/knex/lib/dialects/index.js:16:14
+      1    2.9%        Function: ^realpathSync node:fs:2474:22
+      1  100.0%          Function: ^toRealPath node:internal/modules/cjs/loader:440:20
+      1  100.0%            Function: ^tryFile node:internal/modules/cjs/loader:431:17
+      1    2.9%        Function: ^prettifyObject /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/pino-pretty/lib/utils.js:367:25
+      1  100.0%          Function: ^pretty /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/pino-pretty/index.js:119:19
+      1  100.0%            Function: ^transform /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/pino-pretty/index.js:233:17
+      1    2.9%        Function: ^pipe /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/send/index.js:506:43
+      1  100.0%          Function: ^serveStatic /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/serve-static/index.js:72:31
+      1  100.0%            LazyCompile: *trim_prefix /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:293:23
+      1    2.9%        Function: ^parse /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:51:15
+      1  100.0%          Function: ^compileInput /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1  100.0%            Function: ^ret /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1    2.9%        Function: ^normalize node:path:1127:12
+      1  100.0%          Function: ^join node:path:1166:7
+      1  100.0%            Function: ^resolve /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/view.js:146:42
+      1    2.9%        Function: ^expressInit /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/middleware/init.js:29:30
+      1  100.0%          Function: ^handle /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%            Function: ^trim_prefix /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:293:23
+      1    2.9%        Function: ^compressible /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/compressible/index.js:41:23
+      1  100.0%          Function: ^shouldCompress /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/compression/index.js:254:25
+      1  100.0%            Function: ^onResponseHeaders /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/compression/index.js:140:47
+      1    2.9%        Function: ^allocUnsafeSlow node:buffer:388:50
+      1  100.0%          Function: ^readFileAfterStat node:fs:336:27
+      1    2.9%        Function: ^SafeSet node:internal/per_context/primordials:379:16
+      1  100.0%          Function: ~<anonymous> node:internal/perf/usertiming:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1    2.9%        Function: ^<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/dateformat/lib/dateformat.js:1:696
+      1  100.0%          Function: ^formatTime /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/pino-pretty/lib/utils.js:67:21
+      1  100.0%            Function: ^prettifyTime /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/pino-pretty/lib/utils.js:453:23
+     32    3.6%      LazyCompile: ~configSecureContext node:internal/tls/secure-context:124:29
+     32  100.0%        LazyCompile: ~createSecureContext node:_tls_common:99:29
+     32  100.0%          LazyCompile: ~connect node:_tls_wrap:1605:35
+     32  100.0%            LazyCompile: ~makeConnection /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/mongodb/lib/cmap/connect.js:256:24
+     32    3.6%      LazyCompile: *SourceNode_walk /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/source-map/lib/source-node.js:221:53
+     31   96.9%        LazyCompile: *SourceNode_walk /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/source-map/lib/source-node.js:221:53
+     31  100.0%          LazyCompile: *SourceNode_walk /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/source-map/lib/source-node.js:221:53
+     26   83.9%            LazyCompile: *SourceNode_walk /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/source-map/lib/source-node.js:221:53
+      5   16.1%            Function: ^SourceNode_toString /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/source-map/lib/source-node.js:318:61
+      1    3.1%        Function: ^SourceNode_toString /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/source-map/lib/source-node.js:318:61
+      1  100.0%          T node::options_parser::GetCLIOptions(v8::FunctionCallbackInfo<v8::Value> const&)
+      1  100.0%            LazyCompile: *compile /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+     31    3.5%      LazyCompile: *compile /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+     22   71.0%        LazyCompile: *<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+     22  100.0%          LazyCompile: *step /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+     19   86.4%            LazyCompile: *<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      3   13.6%            LazyCompile: *fulfilled /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      9   29.0%        Function: ^compileInput /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      9  100.0%          Function: ^ret /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      9  100.0%            Function: ^ExpressHandlebars._renderTemplate /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:321:60
+     25    2.8%      LazyCompile: *next /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+     25  100.0%        LazyCompile: *parse /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+     14   56.0%          LazyCompile: *<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+     14  100.0%            LazyCompile: *step /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+     11   44.0%          Function: ^parseWithoutProcessing /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:33:32
+     11  100.0%            Function: ^parse /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:51:15
+     23    2.6%      Function: ^initialize /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/passport/lib/middleware/initialize.js:51:29
+     14   60.9%        Function: ^handle /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/layer.js:86:49
+     14  100.0%          Function: ^trim_prefix /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:293:23
+     13   92.9%            LazyCompile: *next /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:177:16
+      1    7.1%            Function: ^<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:280:64
+      9   39.1%        LazyCompile: *trim_prefix /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:293:23
+      9  100.0%          LazyCompile: *next /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:177:16
+      9  100.0%            Function: ^session /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:179:26
+     17    1.9%      Function: ^Hash node:internal/crypto/hash:62:14
+     17  100.0%        Function: ^createHash node:crypto:132:20
+     11   64.7%          Function: ^hash /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:596:14
+      6   54.5%            Function: ^generate /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:363:22
+      5   45.5%            Function: ^isModified /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:425:24
+      6   35.3%          Function: ^entitytag /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/etag/index.js:39:20
+      6  100.0%            Function: ^etag /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/etag/index.js:70:15
+     16    1.8%      LazyCompile: *wrap /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:101:22
+      4   25.0%        LazyCompile: *resolvePath /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:492:36
+      2   50.0%          LazyCompile: *lookupOnContext /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:448:44
+      2  100.0%            LazyCompile: *compile /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      2   50.0%          Function: ^lookupOnContext /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:448:44
+      2  100.0%            LazyCompile: *compile /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      3   18.8%        LazyCompile: *resolvePossibleLambda /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:527:56
+      3  100.0%          LazyCompile: *compile /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      2   66.7%            LazyCompile: *<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1   33.3%            Function: ^compileInput /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      3   18.8%        LazyCompile: *replaceStack /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:892:38
+      3  100.0%          Function: ^resolvePath /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:492:36
+      3  100.0%            Function: ^lookupOnContext /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:448:44
+      3   18.8%        LazyCompile: *castChunk /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:52:19
+      3  100.0%          LazyCompile: *wrap /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:101:22
+      1   33.3%            LazyCompile: *resolvePath /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:492:36
+      1   33.3%            LazyCompile: *replaceStack /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:892:38
+      1   33.3%            Function: ^push /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:868:22
+      1    6.3%        LazyCompile: *push /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:868:22
+      1  100.0%          Function: ^invokeAmbiguous /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      1  100.0%            LazyCompile: *compile /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1    6.3%        Function: ^functionCall /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:113:38
+      1  100.0%          Function: ^invokeAmbiguous /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      1  100.0%            LazyCompile: *compile /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1    6.3%        Function: ^appendToBuffer /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:42:42
+      1  100.0%          Function: ^appendEscaped /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      1  100.0%            Function: ^compile /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+     16    1.8%      Function: ^session /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:179:26
+      8   50.0%        LazyCompile: *trim_prefix /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:293:23
+      8  100.0%          LazyCompile: *next /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:177:16
+      8  100.0%            Function: ^cors /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/cors/lib/index.js:159:16
+      8   50.0%        Function: ^handle /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/layer.js:86:49
+      8  100.0%          Function: ^trim_prefix /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:293:23
+      6   75.0%            LazyCompile: *next /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:177:16
+      2   25.0%            Function: ^<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:280:64
+     13    1.5%      LazyCompile: ~pbkdf2Sync node:internal/crypto/pbkdf2:69:20
+      7   53.8%        LazyCompile: ~HI /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/mongoose/node_modules/mongodb/lib/cmap/auth/scram.js:238:12
+      7  100.0%          LazyCompile: ~continueScramConversation /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/mongoose/node_modules/mongodb/lib/cmap/auth/scram.js:93:35
+      7  100.0%            LazyCompile: ~<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/mongoose/node_modules/mongodb/lib/cmap/auth/scram.js:85:80
+      6   46.2%        LazyCompile: ~HI /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/mongodb/lib/cmap/auth/scram.js:238:12
+      6  100.0%          LazyCompile: ~continueScramConversation /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/mongodb/lib/cmap/auth/scram.js:93:35
+      6  100.0%            LazyCompile: ~<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/mongodb/lib/cmap/auth/scram.js:85:80
+     13    1.5%      LazyCompile: ~TLSSocket.getPeerCertificate node:_tls_wrap:992:50
+     13  100.0%        LazyCompile: ~onConnectSecure node:_tls_wrap:1524:25
+      8   61.5%          Function: ^emit node:events:460:44
+      8  100.0%            LazyCompile: ~TLSSocket._finishInit node:_tls_wrap:926:43
+      5   38.5%          LazyCompile: *emit node:events:460:44
+      5  100.0%            LazyCompile: ~TLSSocket._finishInit node:_tls_wrap:926:43
+     13    1.5%      Function: ^hash /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:596:14
+      9   69.2%        Function: ^isModified /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:425:24
+      5   55.6%          Function: ^shouldSave /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:440:24
+      5  100.0%            Function: ^end /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:250:27
+      4   44.4%          Function: ^shouldSetCookie /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:464:29
+      4  100.0%            Function: ^<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:220:28
+      4   30.8%        Function: ^generate /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:363:22
+      4  100.0%          Function: ^session /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:179:26
+      3   75.0%            LazyCompile: *trim_prefix /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:293:23
+      1   25.0%            Function: ^handle /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/layer.js:86:49
+     12    1.4%      LazyCompile: *resolvePath /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:492:36
+      7   58.3%        Function: ^lookupOnContext /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:448:44
+      7  100.0%          LazyCompile: *compile /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      4   57.1%            LazyCompile: *<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      3   42.9%            Function: ^compileInput /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      5   41.7%        LazyCompile: *lookupOnContext /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:448:44
+      5  100.0%          LazyCompile: *compile /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      5  100.0%            LazyCompile: *<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+     11    1.3%      LazyCompile: *next /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:177:16
+      4   36.4%        Function: ^session /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:179:26
+      4  100.0%          LazyCompile: *trim_prefix /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:293:23
+      4  100.0%            LazyCompile: *next /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:177:16
+      4   36.4%        Function: ^handle /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:136:31
+      4  100.0%          Function: ^router /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:46:18
+      2   50.0%            LazyCompile: *trim_prefix /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:293:23
+      2   50.0%            Function: ^handle /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/layer.js:86:49
+      2   18.2%        Function: ^error /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/serve-static/index.js:115:39
+      1   50.0%          LazyCompile: *emit node:events:460:44
+      1  100.0%            Function: ^error /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/send/index.js:267:45
+      1   50.0%          Function: ^emit node:events:460:44
+      1  100.0%            Function: ^error /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/send/index.js:267:45
+      1    9.1%        Function: ^initialize /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/passport/lib/middleware/initialize.js:51:29
+      1  100.0%          Function: ^handle /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%            Function: ^trim_prefix /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/index.js:293:23
+     10    1.1%      LazyCompile: *nextTick node:internal/process/task_queues:103:18
+      4   40.0%        Function: ^resOnFinish node:_http_server:910:21
+      4  100.0%          LazyCompile: *emit node:events:460:44
+      4  100.0%            Function: ^onFinish node:_http_outgoing:948:18
+      2   20.0%        Function: ^resume node:internal/streams/readable:989:16
+      2  100.0%          Function: ^Readable.resume node:internal/streams/readable:975:37
+      2  100.0%            Function: ^_dump node:_http_incoming:422:49
+      2   20.0%        Function: ^onwrite node:internal/streams/writable:428:17
+      2  100.0%          Function: ^afterWriteDispatched node:internal/stream_base_commons:155:30
+      2  100.0%            Function: ^writevGeneric node:internal/stream_base_commons:122:23
+      2   20.0%        Function: ^endReadable node:internal/streams/readable:1342:21
+      2  100.0%          Function: ^Readable.read node:internal/streams/readable:402:35
+      2  100.0%            Function: ^resume_ node:internal/streams/readable:996:17
+     10    1.1%      LazyCompile: *extend /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/utils.js:28:16
+      6   60.0%        LazyCompile: *createNewLookupObject /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/internal/create-new-lookup-object.js:15:31
+      6  100.0%          Function: ^createProtoAccessControl /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/internal/proto-access.js:19:34
+      6  100.0%            Function: ^ret._setup /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/runtime.js:217:25
+      3   30.0%        Function: ^createNewLookupObject /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/internal/create-new-lookup-object.js:15:31
+      3  100.0%          Function: ^createProtoAccessControl /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/internal/proto-access.js:19:34
+      3  100.0%            Function: ^ret._setup /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/runtime.js:217:25
+      1   10.0%        LazyCompile: *<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1  100.0%          LazyCompile: *step /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%            LazyCompile: *<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+     10    1.1%      Function: ^memoryUsage node:internal/process/per_thread:169:23
+     10  100.0%        Function: ^<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/routers/app.routers.js:56:36
+     10  100.0%          Function: ^handle /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/layer.js:86:49
+     10  100.0%            Function: ^next /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/router/route.js:116:16
+      9    1.0%      Function: ^update node:internal/crypto/hash:99:40
+      5   55.6%        Function: ^hash /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:596:14
+      4   80.0%          Function: ^isModified /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:425:24
+      2   50.0%            Function: ^shouldSetCookie /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:464:29
+      2   50.0%            Function: ^shouldSave /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:440:24
+      1   20.0%          Function: ^generate /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:363:22
+      1  100.0%            Function: ^session /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-session/index.js:179:26
+      4   44.4%        Function: ^entitytag /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/etag/index.js:39:20
+      4  100.0%          Function: ^etag /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/etag/index.js:70:15
+      4  100.0%            Function: ^generateETag /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/utils.js:273:32
+      9    1.0%      Function: ^send /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/response.js:111:25
+      9  100.0%        Function: ^done /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express/lib/response.js:1033:27
+      6   66.7%          LazyCompile: *<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      6  100.0%            LazyCompile: *step /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      3   33.3%          Function: ^<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      3  100.0%            LazyCompile: *step /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      9    1.0%      Function: ^randomFillSync node:internal/crypto/random:113:24
+      9  100.0%        Function: ^randomBytes node:internal/crypto/random:93:21
+      9  100.0%          Function: ^randomBytesSync /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/random-bytes/index.js:72:25
+      9  100.0%            Function: ^uidSync /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/uid-safe/index.js:75:18
+     26    1.4%    LazyCompile: *SourceNode_walk /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/source-map/lib/source-node.js:221:53
+     24   92.3%      LazyCompile: *SourceNode_walk /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/source-map/lib/source-node.js:221:53
+     21   87.5%        LazyCompile: *SourceNode_walk /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/source-map/lib/source-node.js:221:53
+     18   85.7%          LazyCompile: *SourceNode_walk /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/source-map/lib/source-node.js:221:53
+     14   77.8%            LazyCompile: *SourceNode_walk /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/source-map/lib/source-node.js:221:53
+      4   22.2%            Function: ^SourceNode_toString /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/source-map/lib/source-node.js:318:61
+      3   14.3%          Function: ^SourceNode_toString /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/source-map/lib/source-node.js:318:61
+      3  100.0%            T node::options_parser::GetCLIOptions(v8::FunctionCallbackInfo<v8::Value> const&)
+      3   12.5%        Function: ^SourceNode_toString /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/source-map/lib/source-node.js:318:61
+      3  100.0%          T node::options_parser::GetCLIOptions(v8::FunctionCallbackInfo<v8::Value> const&)
+      3  100.0%            LazyCompile: *compile /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      2    7.7%      Function: ^SourceNode_toString /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/source-map/lib/source-node.js:318:61
+      2  100.0%        T node::options_parser::GetCLIOptions(v8::FunctionCallbackInfo<v8::Value> const&)
+      2  100.0%          LazyCompile: *compile /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      2  100.0%            Function: ^compileInput /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+     20    1.0%    LazyCompile: *next /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+     20  100.0%      LazyCompile: *parse /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+     11   55.0%        LazyCompile: *<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+     11  100.0%          LazyCompile: *step /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+     10   90.9%            LazyCompile: *<anonymous> /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1    9.1%            LazyCompile: *fulfilled /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      9   45.0%        Function: ^parseWithoutProcessing /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:33:32
+      9  100.0%          Function: ^parse /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:51:15
+      9  100.0%            Function: ^compileInput /Users/PabloRuizS2/OneDrive/CODE/Coderhouse/back-end/desafios/desafio-14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+
